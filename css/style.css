@@ -36,7 +36,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #28655E;
+    background: #20504a;
     height: 8vh;
 }
 
@@ -82,7 +82,7 @@ nav {
 /*Main*/
 
 main {
-    height: 130vh;
+    
 }
 
 #img-principal {
@@ -91,11 +91,33 @@ main {
     height: 100vh;
 }
 
+#quartos{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.quarto1{
+    position: relative;
+    height: 250px;
+    width: 30%;
+    background: blue;
+    display: inline-block;
+    margin-right: 5%;
+    
+}
+.quarto{
+    position: relative;
+    height: 250px;
+    width: 30%;
+    background: blue;
+    display: inline-block;
+}
+
 /*Footer*/
 
 footer {
     position: absolute;
-    background: #9b4b00;
+    background: #20504a;
     width: 100%;
     height: 50px;
 }
