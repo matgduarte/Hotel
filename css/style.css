@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(51, 51, 51),rgb(20, 20, 20), rgb(0, 0, 0));
+    height: 100%;
+}
+header{
+    position: fixed;
+    background-color:  rgb(20, 20, 20);
+    width: 100%;
+    height: 60px;
+}
+#nav-rigt{
+    float: right;
+}
+.menu {
+    position:absolute;
+    display: block;
+    margin: 5px;
+    margin-left: 15px;
+    height: 50px;
+    background-color:  rgb(20, 20, 20);
+    float: right;
+}
+#icon{
+    width: 50px;
+}
+.bmenu {
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    background-color:  rgb(20, 20, 20);
+}
+.menu-menor {
+    display: none;
+    background-image: linear-gradient(to top left, rgb(20, 20, 20), rgb(15, 15, 15));
+    min-width: 200px;
+}
+.menu-menor a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .menu-menor {
+    display: block;
+}
+#logo{
+    position:relative;
+    display: block;
+}
+nav ul li {
+    height: 50px;
+    display: inline-block;
+    margin-right: 10%;
+}
+.header_links{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    /*position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;   
+    right: 0;
+    margin: auto;*/
+}
+main{
+    height: 130vh;
+}
+footer{
+    position: absolute;
+    background-color:  rgba(255, 0, 0, 0.671);
+    width: 100%;
+    height: 50px;
+}
