@@ -36,7 +36,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
+    background: #28655E;
     height: 8vh;
 }
 
@@ -95,7 +95,7 @@ main {
 
 footer {
     position: absolute;
-    background-color: rgb(255, 0, 0);
+    background: #9b4b00;
     width: 100%;
     height: 50px;
 }
