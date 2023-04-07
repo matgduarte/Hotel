@@ -6,11 +6,12 @@
     font-family: 'Inter Tight', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
-
-a {
-    color: white;
+a{
     text-decoration: none;
     transition: 0.3s;
+}
+.a-menu {
+    color: white;
 }
 
 a:hover {
@@ -30,6 +31,7 @@ header {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: white;
 }
 
 nav {
@@ -101,17 +103,26 @@ main {
     margin-top: 60px;
     margin-bottom:  60px;
     position: relative;
-    height: 600px;
+    height: 50vh;
     width: 20%;
+    border-radius: 10px;
     box-shadow: 5px 10px 18px #888888;
     display: inline-block;
     margin-left: 10%;
 }
 
 .abc_img{
-    
+  height: 50%;
 }
-
+.a-quartos{
+    color: black;
+}
+.texto-quartos{
+    padding: 15px;
+}
+.h1-quartos{
+    margin-bottom: 10px;
+}
 
 /*Footer*/
 
