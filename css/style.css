@@ -9,9 +9,9 @@
 a{
     text-decoration: none;
     transition: 0.3s;
+    color: white;
 }
 .a-menu {
-    color: white;
 }
 
 a:hover {
@@ -20,17 +20,26 @@ a:hover {
 
 body {}
 
+hr{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
 /*Header*/
 
 header {
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 .logo {
     font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: white;
 }
 
@@ -110,13 +119,24 @@ main {
     display: inline-block;
     margin-left: 10%;
 }
-
+/*arrumar imagem e ajustar um hover para ampliar a imagem*/
 .abc_img{
   height: 50%;
+  transition: 1s;
+  overflow: hidden;
 }
+#abc_img:hover{
+    transform: scale(1.5);
+}
+
 .a-quartos{
     color: black;
 }
+.a-quartos p{
+    color: black;
+}
+
+
 .texto-quartos{
     padding: 15px;
 }
@@ -130,7 +150,68 @@ footer {
     position: absolute;
     background: #20504a;
     width: 100%;
-    height: 50px;
+    padding-top: 2.5%;
+}
+
+#infor div{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+#infor h1, p{
+    color: #fff;
+}
+.ul-footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ul-footer li{
+    width: 20%;
+}
+.p1-f {
+    margin-right: 20%;
+}
+.p2-f{
+    margin-right: 20%;
+}
+
+.ul-footer li {
+    letter-spacing: 3px;
+}
+
+#direitos {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+#direitos p {
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+#direitos2{
+    width: 100%;
+}
+
+#direitos2 ul{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#direitos2 ul li {
+    display: inline-block;
+    width: 5%;
+}
+
+#direitos2 img {
+    width: 100%;
+    border-radius: 100%;
 }
 
 /*KeyFrame*/
