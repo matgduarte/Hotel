@@ -124,6 +124,8 @@ main {
   height: 50%;
   transition: 1s;
   overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 #abc_img:hover{
     transform: scale(1.5);
