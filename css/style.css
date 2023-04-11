@@ -132,13 +132,38 @@ main {
     margin-left: 10%;
 }
 /*arrumar imagem e ajustar um hover para ampliar a imagem*/
-.abc_img{
+
+.abc_img-1{
+    background: url('../img/q1.jpg');
+    background-position: center;
+    background-size: cover;
   height: 50%;
   transition: 1s;
   overflow: hidden;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+.abc_img-2{
+    background: url('../img/q2.jpg');
+    background-position: center;
+    background-size: cover;
+  height: 50%;
+  transition: 1s;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.abc_img-3{
+    background: url('../img/q3.jpg');
+    background-position: center;
+    background-size: cover;
+  height: 50%;
+  transition: 1s;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
 #abc_img:hover{
     transform: scale(1.5);
 }
