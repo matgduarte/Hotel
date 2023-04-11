@@ -109,8 +109,8 @@ main {
     
 }
 
-#img-sobre {
-    background: url("../img/hotel2.png") no-repeat center center;
+#img-principal {
+    background: url("../img/hotel1.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
