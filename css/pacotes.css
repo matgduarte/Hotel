@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+}
+h1, h2, h3, p{
+    color: black;
+}
+a:hover {
+    opacity: 0.7;
+}
+body{
+    overflow-x: hidden;
+}
+/*Header*/
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #20504a;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/*Main*/
+main{
+    width: 100%;
+}
+#img-principal {
+    background: url("../img/hotel1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.aba_pac{
+    width: 100%;
+    background-color: red;
+    border: 3px solid black;
+}
+.texto_pac{
+    float: left;
+    clear: both;
+    width: 25%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: aqua;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+#texto_pac2{
+    float: right;
+    clear: both;
+    margin-left: 0;
+    margin-right: 5%;
+}
+#li_pac2{
+    margin-left: 5%;
+}
+.texto_pac h2{
+    text-align: center;
+    font-size: 25px;
+}
+.aba_pac li{
+    width: 60%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: green ;
+    display: inline-block;
+}
+.aba_pac ul{
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-bottom: 2.5%;
+    float: left;
+    background-color: bisque;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.naoimpo{
+    width: 100%;
+    overflow: hidden;
+}
+.aba_pac img{
+    width: 100%;
+    transition: 1s;
+    overflow: hidden;
+}
+.aba_pac img:hover{
+    transform: scale(1.1);
+}
+.texto{
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+.texto h3{
+    font-size: 20px;
+}
+.texto p{
+    color: black;
+}
+.legenda_pac{
+    font-size: 12px;
+}
+.preço{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    position: absolute;
+    background: #20504a;
+    width: 100%;
+    padding-top: 2.5%;
+}
+
+#infor div{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+#infor h1, p{
+    color: #fff;
+}
+.ul-footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ul-footer li{
+    width: 20%;
+}
+.p1-f {
+    margin-right: 20%;
+}
+.p2-f{
+    margin-right: 20%;
+}
+
+.ul-footer li {
+    letter-spacing: 3px;
+}
+
+#direitos {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+#direitos p {
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+#direitos2{
+    width: 100%;
+}
+
+#direitos2 ul{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#direitos2 ul li {
+    display: inline-block;
+    width: 5%;
+}
+
+#direitos2 img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+/*KeyFrame*/
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
