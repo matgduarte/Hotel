@@ -109,10 +109,34 @@ main {
     
 }
 
+.atras_do_header_kskskssk{
+    height: 8vh;
+}
+
 #img-principal {
     background: url("../img/hotel1.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
+}
+
+.bv-div{
+    margin-top: 10%;
+    float: right;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.bv-div h1{
+    font-size:10vh;
+    text-align: right;
+    color: #fff;
+    border: 2px solid#ffffff48;
+}
+
+.bv-div h2{
+    font-size:4vh;
+    text-align: right;
+    color: #fff;
 }
 
 .quartos{
