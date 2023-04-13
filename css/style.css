@@ -122,15 +122,18 @@ main {
 .bv-div{
     margin-top: 10%;
     float: right;
-    width: 48%;
+    max-width: 48%;
+    width: auto;
     margin-right: 2%;
+    text-shadow: 5px 4px #527e7963;
+    border: 2px solid#ffffff48;
+    background: #20504a0c;
 }
 
 .bv-div h1{
     font-size:10vh;
     text-align: right;
     color: #fff;
-    border: 2px solid#ffffff48;
 }
 
 .bv-div h2{
@@ -142,36 +145,40 @@ main {
 .quartos{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .abc{
     margin-top: 60px;
     margin-bottom:  60px;
     position: relative;
-    height: 50vh;
+    height: auto;
+    min-height: 50vh;
     width: 20%;
     border-radius: 10px;
     box-shadow: 5px 10px 18px #888888;
     display: inline-block;
     margin-left: 10%;
 }
-/*arrumar imagem e ajustar um hover para ampliar a imagem*/
 
 .abc_img-1{
     background: url('../img/q1.jpg');
     background-position: center;
     background-size: cover;
-  height: 50%;
-  transition: 1s;
-  overflow: hidden;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
+    min-height: 25vh;
+    height:auto;
+    transition: 1s;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+} 
+
 .abc_img-2{
     background: url('../img/q2.jpg');
     background-position: center;
     background-size: cover;
-  height: 50%;
+    min-height: 25vh;
+    height:auto;
   transition: 1s;
   overflow: hidden;
   border-top-right-radius: 10px;
@@ -181,7 +188,8 @@ main {
     background: url('../img/q3.jpg');
     background-position: center;
     background-size: cover;
-  height: 50%;
+    min-height: 25vh;
+    height:auto;
   transition: 1s;
   overflow: hidden;
   border-top-right-radius: 10px;
