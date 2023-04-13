@@ -31,7 +31,7 @@ hr{
 /*Header*/
 
 header {
-    
+    position: fixed;
     width: 100%;
     z-index: 5;
 }
@@ -267,7 +267,7 @@ form {
     border: 1px solid #ccc;
     border-radius: 10px;
     float: left;
-    height: 350px;
+    height: 600px;
   }
   
   label {
@@ -297,7 +297,7 @@ form {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 200px;
     float: left;
   }
   
@@ -307,16 +307,52 @@ form {
   }
 #quadrado
 {
-    width: 32%;
-    height: 390px;
+    width: 45%;
+    height: 640px;
     margin-right: 15%;
     float: right;
     margin-top: 5%;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
 }
 iframe {
-    width: 100%;
-    height:390px;
+    width: 30%;
     border-radius: 10px;
+    float: left;
+    height: 500px;
+}
+
+.img1 
+{
+    width: 70%;
+    float: left;
+    border-radius: 10px;
+    height: 500px;
+}
+#tex1 
+{
+    float: left;
+    color: black;
+    margin-top: 60%;
+    margin-left: -70%;
+}
+#dis {
+    float: left;
+    color: black;
+    margin-left: -25%;
+}
+.enviar {
+    background-color: #20504a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 200px;
+    float: left;
+}
+#indis {
+    float: left;
+    color: black;
+    margin-left: -15%;
 }
