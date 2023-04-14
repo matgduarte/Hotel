@@ -145,6 +145,132 @@ main {
     margin-bottom: 10px;
 }
 
+form {
+    margin-top: 5%;
+    width: 18%;
+    margin-left: 15%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    height: 600px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    float: left;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    float: left;
+  }
+  
+  button[type="submit"] {
+    background-color: #20504a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 200px;
+    float: left;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+    float: left;
+  }
+#quadrado
+{
+    width: 45%;
+    height: 640px;
+    margin-right: 15%;
+    float: right;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+iframe {
+    width: 30%;
+    border-top-right-radius: 10px;
+    float: left;
+    height: 500px;
+}
+.info{
+    margin-left: 10%;
+}
+
+.img1 
+{
+    width: 70%;
+    float: left;
+    border-top-left-radius: 10px;
+    height: 500px;
+    background: url('../img/hotel1.jpg');
+    background-size: cover;
+}
+.img2 
+{
+    width: 70%;
+    float: left;
+    border-top-left-radius: 10px;
+    height: 500px;
+    background: url('../img/Conrad-hotel-tulum.jpg');
+    background-size: cover;
+}
+.img3
+{
+    width: 70%;
+    float: left;
+    border-top-left-radius: 10px;
+    height: 500px;
+    background: url('../img/Corazon-Cabo-Resort-Spa.jpg');
+    background-size: cover;
+}
+#tex1 
+{
+    float: left;
+    color: black;
+    margin-top: 60%;
+    margin-left: -70%;
+}
+#dis {
+    float: left;
+    color: black;
+    margin-left: -25%;
+}
+.enviar {
+    background-color: #20504a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 180px;
+    float: left;
+}
+#indis {
+    float: left;
+    color: black;
+    margin-left: -15%;
+}
+.a-login {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 0px;
+}
+
 /*Footer*/
 
 footer {
@@ -259,105 +385,4 @@ footer {
     }
 }
 
-form {
-    margin-top: 5%;
-    width: 18%;
-    margin-left: 15%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    float: left;
-    height: 600px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    float: left;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    float: left;
-  }
-  
-  button[type="submit"] {
-    background-color: #20504a;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 200px;
-    float: left;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #45a049;
-    float: left;
-  }
-#quadrado
-{
-    width: 45%;
-    height: 640px;
-    margin-right: 15%;
-    float: right;
-    margin-top: 5%;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
-iframe {
-    width: 30%;
-    border-radius: 10px;
-    float: left;
-    height: 500px;
-}
 
-.img1 
-{
-    width: 70%;
-    float: left;
-    border-radius: 10px;
-    height: 500px;
-}
-#tex1 
-{
-    float: left;
-    color: black;
-    margin-top: 60%;
-    margin-left: -70%;
-}
-#dis {
-    float: left;
-    color: black;
-    margin-left: -25%;
-}
-.enviar {
-    background-color: #20504a;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 180px;
-    float: left;
-}
-#indis {
-    float: left;
-    color: black;
-    margin-left: -15%;
-}
-.a-login {
-    border: 2px solid rgb(255, 255, 255);
-    padding: 3px;
-    border-radius: 0px;
-}
