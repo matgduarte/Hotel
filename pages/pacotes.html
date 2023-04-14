@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/pacotes.css">
     <title>Tropical Palace Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700&family=Fira+Sans&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/pacotes.css">
 </head>
-
 <body>
-    <script src="../js/mobile-navbar.js"></script>
+    
     <header>
         <nav>
-            <a class="logo" href="../index.html">Tropical Palace Hotel</a>
+            <a class="logo" href="#">Tropical Palace Hotel</a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
@@ -21,18 +22,21 @@
             </div>
             <ul class="nav-list">
                 <li><a href="../index.html" class="a-menu">Home </a></li>
-                <li><a href="../pages/sobre.html" class="a-menu">Sobre</a></li>
-                <li><a href="../pages/pacotes.html" class="a-menu">Pacotes</a></li>
-                <li><a href="../pages/contato.html" class="a-menu">Contato</a></li>
-                <li><a href="../pages/login.html" class="a-login">Login</a></li>
+                <li><a href="sobre.html" class="a-menu">Sobre</a></li>
+                <li><a href="pacotes.html" class="a-menu">Pacotes</a></li>
+                <li><a href="contato.html" class="a-menu">Contato</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="img-principal"></section>
+        <h1 id="titulo">
+            Planos de hotéis
+        </h1>
         <section class="aba_pac">
             <div class="texto_pac">
-                <h2>Texto barato, para voce que gosta de dars</h2>
+                <h2>Hotéis com preços acessíveis, ideais para quem está com pouco dinheiro:</h2>
             </div>
             <li>
                 <ul>
@@ -43,7 +47,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pbarato">R$ 250,00</p>
+                            <p class="avaliar" class="abarato">00/10</p>
+                            <p class="disponivel" class="dbarato">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -55,7 +61,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pbarato">R$ 250,00</p>
+                            <p class="avaliar" class="abarato">00/10</p>
+                            <p class="disponivel" class="dbarato">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -67,7 +75,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pbarato">R$ 250,00</p>
+                            <p class="avaliar" class="abarato">00/10</p>
+                            <p class="disponivel" class="dbarato">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -75,7 +85,7 @@
         </section>
         <section class="aba_pac">
             <div class="texto_pac" id="texto_pac2">
-                <h2>Texto barato, para voce que gosta de dar</h2>
+                <h2>Para aqueles que buscam um equilíbrio entre preço e conforto, existem muitas opções de hotéis com preços medianos disponíveis</h2>
             </div>
             <li id="li_pac2">
                 <ul>
@@ -86,7 +96,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pmedio">R$ 670,00</p>
+                            <p class="avaliar" class="amedio">00/10</p>
+                            <p class="disponivel" class="dmedio">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -98,7 +110,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pmedio">R$ 670,00</p>
+                            <p class="avaliar" class="amedio">00/10</p>
+                            <p class="disponivel" class="dmedio">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -110,7 +124,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pmedio">R$ 670,00</p>
+                            <p class="avaliar" class="amedio">00/10</p>
+                            <p class="disponivel" class="dmedio">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -118,7 +134,7 @@
         </section>
         <section class="aba_pac">
             <div class="texto_pac">
-                <h2>Texto barato</h2>
+                <h2>Para quem busca uma experiência de hospedagem de alto padrão, existem diversas opções de hotéis caros e luxuosos</h2>
             </div>
             <li>
                 <ul>
@@ -129,7 +145,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pcaro">R$1000,99</p>
+                            <p class="avaliar" class="acaro">00/10</p>
+                            <p class="disponivel" class="dcaro">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -141,7 +159,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pcaro">R$1000,99</p>
+                            <p class="avaliar" class="acaro">00/10</p>
+                            <p class="disponivel" class="dcaro">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -153,7 +173,9 @@
                         <div class="texto">
                             <h3>Titulo</h3>
                             <p class="legenda_pac">especificad</p>
-                            <p class="preço">preço</p>
+                            <p id="preço" class="pcaro">R$1000,99</p>
+                            <p class="avaliar" class="acaro">00/10</p>
+                            <p class="disponivel">Disponivel</p>
                         </div>
                     </a>
                 </ul>
@@ -201,5 +223,6 @@
             </ul>
         </section>
     </footer>
+    <script src="../js/mobile-navbar.js"></script>
 </body>
 </html>
