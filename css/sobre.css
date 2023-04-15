@@ -93,13 +93,22 @@ nav {
 
 
 /*Main*/
-
-
-
-
-
-
-
+main {
+    width: 100vh;
+    height: 80vw;
+}
+#sobre {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+#sobre p {
+    color: black;
+}
+#sobre-img {
+    width: 40%;
+    margin-left: 130%;
+    margin-top: -30%;
+}
 
 /*Footer*/
 
