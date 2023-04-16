@@ -27,7 +27,6 @@ hr{
 }
 
 /*Header*/
-
 /*Header*/
 
 header {
@@ -41,9 +40,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
-}
-#logo-img {
-    width: 4%;
 }
 
 nav {
@@ -64,6 +60,20 @@ nav {
     letter-spacing: 3px;
     margin-left: 32px;
 }
+
+.a-menu{
+    font-size: 16px;
+}
+
+.a-login {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.a-login:hover {
+        opacity: 0.7;
+    }
 
 .mobile-menu {
     display: none;
@@ -93,7 +103,6 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
 
 /*Main*/
 .atras_do_header_kskskssk{

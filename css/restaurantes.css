@@ -27,6 +27,7 @@ hr{
 }
 
 /*Header*/
+/*Header*/
 
 header {
     position: fixed;
@@ -102,7 +103,6 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
 /*Main*/
 
 main {
