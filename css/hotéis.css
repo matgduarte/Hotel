@@ -27,12 +27,14 @@ hr{
 }
 
 /*Header*/
-/*Header*/
-
 header {
     position: fixed;
     width: 100%;
-    z-index: 5;
+    background: #20504a;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
 }
 
 .atras_do_header_kskskssk{
@@ -52,7 +54,7 @@ main {
 
 
 .logo {
-    font-size: 24px;
+    font-size: 2vw;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: white;
@@ -63,8 +65,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #20504a;
-    height: 8vh;
+    height: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .nav-list {
@@ -126,7 +129,7 @@ main {
 }
 
 .atras_do_header_kskskssk{
-    height: 8vh;
+    height: 100px;
 }
 
 #img-principal {
