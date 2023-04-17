@@ -196,10 +196,16 @@ main{
     overflow: hidden;
     box-shadow: 5px 10px 18px #a0a0a0;
 }
+
 .naoimpo{
     width: 100%;
     overflow: hidden;
 }
+
+.naoimpo img{
+    height: 23vh;
+}
+
 .aba_pac img{
     width: 100%;
     transition: 1s;
