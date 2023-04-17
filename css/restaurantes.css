@@ -224,14 +224,6 @@ footer {
     padding-top: 2.5%;
 }
 
-#infor div{
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
-}
-#infor h1, p{
-    color: #fff;
-}
 .ul-footer{
     list-style: none;
     display: flex;
