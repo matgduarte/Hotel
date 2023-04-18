@@ -9,6 +9,10 @@
   transition: all .2s linear;
 }
 
+.pacotes img{
+   height: 30%;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -16,6 +20,7 @@
   padding:25px;
   min-height: 100vh;
   background: url("../img/hotel2.png");
+  padding: 100px;
 }
 
 
@@ -28,10 +33,16 @@
   
 }
 
+.container form h1{
+    font-size: 120%;
+    
+}
+
 .container form .row{
   display: flex;
   flex-wrap: wrap;
   gap:15px;
+
 }
 
 .container form .row .col{
