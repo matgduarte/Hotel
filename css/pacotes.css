@@ -185,6 +185,7 @@ main{
 }
 .aba_pac ul{
     width: 30%;
+    height: 45vh;
     margin-left: 2.5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
@@ -195,6 +196,9 @@ main{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 10px 18px #a0a0a0;
+}
+#sueg{
+    height: 53vh;
 }
 
 .naoimpo{
@@ -221,14 +225,16 @@ main{
 }
 
 .texto h3{
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    padding: 1%;
 }
 .texto p{
     color: white;
 }
 .legenda_pac{
     font-size: 12px;
+    padding: 2%;
 }
 #preço{
     font-size: 18px;
@@ -247,10 +253,19 @@ main{
     margin-right: 5%;
     float: right;
 }
+.desconto{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+    clear: both;
+}
 .disponivel{
     font-size: 18px;
     font-weight: bold;
     float: left;
+    clear: both;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -392,6 +407,7 @@ footer {
     }
     .aba_pac ul {
         width: 80%;
+        height: 55vh;
         margin-left: 10%;
     }
     #texto_pac2{
@@ -401,7 +417,10 @@ footer {
     #li_pac2 {
         margin-left: 0;
     }
-
+    .legenda_pac {
+        font-size: 13px;
+        padding: 2%;
+    }
 
     /*Footer*/
     .ul-footer {
@@ -438,8 +457,10 @@ footer {
 }
 .aba_pac ul {
     width: 80%;
+    height: 55vh;
     margin-left: 10%;
 }
+
 #texto_pac2{
     float: left;
     margin-left: 10%;
@@ -447,7 +468,13 @@ footer {
 #li_pac2 {
     margin-left: 0;
 }
-
+#sueg{
+    height:65vh;
+}
+.legenda_pac {
+    font-size: 13px;
+    padding: 2%;
+}
 
 /*Footer*/
 .ul-footer {
@@ -478,6 +505,7 @@ footer {
     }
     .aba_pac ul {
         width: 60%;
+        height: 55vh;
         margin-left: 20%;
     }
     #texto_pac2{
@@ -487,7 +515,13 @@ footer {
     #li_pac2 {
         margin-left: 0;
     }
-    
+    #sueg{
+        height:65vh;
+    }
+    .legenda_pac {
+        font-size: 14px;
+        padding: 2%;
+    }
     
     /*Footer*/
     .ul-footer {
@@ -517,6 +551,7 @@ footer {
     }
     .aba_pac ul {
         width: 30%;
+        height: 55vh;
         margin-left: 2.5%;
     }
     #texto_pac2{
@@ -526,7 +561,13 @@ footer {
     #li_pac2 {
         margin-left: 0;
     }
-    
+    #sueg{
+        height:60vh;
+    }
+    .legenda_pac {
+        font-size: 13px;
+        padding: 2%;
+    }
     
     /*Footer*/
     
@@ -542,6 +583,16 @@ footer {
     }
     #texto_pac2 h2{
         font-size: 20px;
+    }
+    .aba_pac ul{
+        height: 55vh;
+    }
+    #sueg{
+        height:65vh;
+    }
+    .legenda_pac {
+        font-size: 13px;
+        padding: 2%;
     }
     /*Footer*/
     
