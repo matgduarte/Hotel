@@ -210,7 +210,7 @@ footer {
     background: #20504a;
     width: 100%;
     padding-top: 2.5%;
-    margin-top: 70%;
+    margin-top: 50%;
 }
 
 #infor div{
@@ -272,4 +272,418 @@ footer {
 #direitos2 img {
     width: 100%;
     border-radius: 100%;
+}
+  /*KeyFrame*/
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+  /*Media*/
+
+@media (max-width: 1019px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #20504a;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    
+
+    main {
+        width: 100%;
+    }
+    #title {
+        font-size: 70px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 5%;
+    }
+    
+    h2{
+        font-size: 120%;
+    }
+    
+    #h2-sobre {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        min-width: 200px;
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 1%;
+    }
+    #h2-sobre h2 {
+       text-align: center;
+    }
+    #sobre {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    #sobre p {
+        color: black;
+        font-size: 20px;
+        text-align: left;
+    
+    }
+    #sobre-1 {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    #sobre-1 p {
+        color: black;
+        font-size: 20px;
+        text-align: left;
+    }
+    .li-vert{
+        height: 250vh;
+        border-left: 1px solid black;
+    
+        margin-left:  70%;
+        margin-top: -180%;
+    }
+    /** lado da linha - fotos - colaboradores/programadores **/
+    #div-img {
+        width: 25%;
+    
+        margin-left: 72.5%;
+        margin-top: 5%;
+    }
+    #div-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    #h2-sobre-colab {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        
+        width: 14%;
+        margin-left: 77.5%;
+        margin-top: -170%;
+        padding: 1%;
+    }
+    #h2-sobre-colab h2 {
+        text-align: center;
+    }
+    #h2-sobre-colab-info {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        
+        width: 20%;
+        margin-left: 72.5%;
+        margin-top: 5%;
+        padding: 1%;
+    }
+    #h2-sobre-colab-info h2 {
+        text-align: center;
+    }
+    
+    
+    footer {
+        position: absolute;
+        background: #20504a;
+        width: 100%;
+        padding-top: 2.5%;
+        margin-top: 70%;
+    }
+}
+
+/*Media*/
+@media (max-width:768px){
+    
+    /*Header*/
+    .logo{
+            font-size: 20px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #20504a;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    
+
+    main {
+        width: 100%;
+    }
+    #title {
+        font-size: 70px;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 5%;
+    }
+    
+    h2{
+        font-size: 120%;
+    }
+    
+    #h2-sobre {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        min-width: 200px;
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 1%;
+    }
+    #h2-sobre h2 {
+       text-align: center;
+    }
+    #sobre {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    #sobre p {
+        color: black;
+        font-size: 20px;
+        text-align: left;
+    
+    }
+    #sobre-1 {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    #sobre-1 p {
+        color: black;
+        font-size: 20px;
+        text-align: left;
+    }
+    .li-vert{
+        height: 300vh;
+        border-left: 1px solid black;
+    
+        margin-left:  70%;
+        margin-top: -250%;
+    }
+    /** lado da linha - fotos - colaboradores/programadores **/
+    #div-img {
+        width: 25%;
+    
+        margin-left: 72.5%;
+        margin-top: 5%;
+    }
+    #div-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    #h2-sobre-colab {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        
+        width: 14%;
+        margin-left: 77.5%;
+        margin-top: -255%;
+        padding: 1%;
+    }
+    #h2-sobre-colab h2 {
+        text-align: center;
+    }
+    #h2-sobre-colab-info {
+        background-color: #20504a;
+        border-radius: 10px;
+        color: white;
+        
+        width: 20%;
+        margin-left: 72.5%;
+        margin-top: 5%;
+        padding: 1%;
+    }
+    #h2-sobre-colab-info h2 {
+        text-align: center;
+    }
+    
+    
+    footer {
+        position: absolute;
+        background: #20504a;
+        width: 100%;
+        padding-top: 2.5%;
+        margin-top: 130%;
+    }
+}
+
+/*Media*/
+@media (max-width:320px){
+    
+    /*Header*/
+    .logo{
+            font-size: 12px;
+    }
+    
+    
+    /*Footer*/
+    .ul-footer {
+        display: none;
+    }
+    #direitos2 ul li {
+        display: inline-block;
+        margin-top: 10%;
+        width: 35%;
+    }
+}
+
+@media (min-width: 321px) and (max-width:480px){
+    /*Header*/
+    .logo{
+        font-size: 8px;
+}
+
+main {
+    width: 100%;
+}
+#title {
+    font-size: 20px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+}
+
+h2{
+    font-size: 120%;
+}
+
+#h2-sobre {
+    background-color: #20504a;
+    border-radius: 10px;
+    color: white;
+    min-width: 150px;
+    width: 10%;
+    margin-left: 0.5%;
+    margin-top: 5%;
+    padding: 1%;
+}
+#h2-sobre h2 {
+   text-align: center;
+}
+#sobre {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#sobre p {
+    color: black;
+    font-size: 10px;
+    text-align: left;
+
+}
+#sobre-1 {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#sobre-1 p {
+    color: black;
+    font-size: 10px;
+    text-align: left;
+}
+.li-vert{
+    height: 260vh;
+    border-left: 1px solid black;
+
+    margin-left:  50%;
+    margin-top: -520%;
+}
+/** lado da linha - fotos - colaboradores/programadores **/
+#div-img {
+    width: 25%;
+
+    margin-left: 52%;
+    margin-top: 15%;
+}
+#div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+#h2-sobre-colab {
+    background-color: #20504a;
+    border-radius: 10px;
+    color: white;
+    
+    width: 42%;
+    margin-left: 55%;
+    margin-top: -520%;
+    padding: 1%;
+}
+#h2-sobre-colab h2 {
+    text-align: center;
+}
+#h2-sobre-colab-info {
+    background-color: #20504a;
+    border-radius: 10px;
+    color: white;
+    
+    width: 50%;
+    margin-left: 51%;
+    margin-top: 5%;
+    padding: 1%;
+}
+#h2-sobre-colab-info h2 {
+    text-align: center;
+}
+
+
+footer {
+    position: absolute;
+    background: #20504a;
+    width: 100%;
+    padding-top: 2.5%;
+    margin-top: 280%;
+    }
 }
