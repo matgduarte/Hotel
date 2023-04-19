@@ -589,6 +589,9 @@ p {
         width: 100%;
         border-radius: 100%;
     }
+    .logo{
+        font-size: 3vw;
+    }
 }
     
 @media (min-width:390px) and (max-width: 497px) {
@@ -682,8 +685,14 @@ p {
         width: 100%;
         border-radius: 100%;
     }
+    .logo{
+        font-size: 3vw;
+    }
 }
 @media (min-width:498px) and (max-width: 654px) {
+    .logo{
+        font-size: 3vw;
+    }
 
     #img-principal {
         background: url("../img/hotel1.jpg") no-repeat center center;
@@ -773,12 +782,6 @@ p {
 
 @media (min-width:655px) and (max-width: 1019px) {
 
-    .logo {
-        font-size: 4vw;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: white;
-    }
 
     .bv-div {
         margin-top: 10%;
