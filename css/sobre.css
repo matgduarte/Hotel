@@ -120,11 +120,16 @@ main {
     margin-bottom: 2.5%;
     margin-left: 5%;
 }
+
+h2{
+    font-size: 120%;
+}
+
 #h2-sobre {
     background-color: #20504a;
     border-radius: 10px;
     color: white;
-    
+    min-width: 200px;
     width: 10%;
     margin-left: 5%;
     margin-top: 5%;
@@ -283,7 +288,9 @@ footer {
     }
 }
 
-@media (max-width: 999px) {
+/*Media*/
+
+@media (max-width: 1019px) {
     body {
         overflow-x: hidden;
     }
@@ -311,4 +318,12 @@ footer {
         display: block;
     }
 }
+<<<<<<< HEAD
 
+=======
+@media (max-width: 654px) {
+    .logo{
+        font-size: 3vw;
+    }
+}
+>>>>>>> 97dceb78ee0988f4795c418fcaf02cc382e3c35b
