@@ -37,6 +37,30 @@ header {
     z-index: 2;
 }
 
+.atras_do_header_kskskssk{
+    height: 4vh;
+}
+
+main {
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 100px;
+    color:darkslategray;
+}
+
+#titulo2{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 3%;
+    font-size: 300%;
+    color:darkslategray;
+}
+
+
 .logo {
     font-size: 2vw;
     text-transform: uppercase;
