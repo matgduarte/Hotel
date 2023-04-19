@@ -37,30 +37,6 @@ header {
     z-index: 2;
 }
 
-.atras_do_header_kskskssk{
-    height: 4vh;
-}
-
-main {
-}
-
-#titulo{
-    text-align: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    font-size: 100px;
-    color:darkslategray;
-}
-
-#titulo2{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 3%;
-    font-size: 300%;
-    color:darkslategray;
-}
-
-
 .logo {
     font-size: 2vw;
     text-transform: uppercase;
@@ -130,6 +106,7 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
 /*Main*/
 
 main {
@@ -340,7 +317,9 @@ footer {
     }
 }
 
-@media (max-width: 999px) {
+/*Media*/
+
+@media (max-width: 1019px) {
     body {
         overflow-x: hidden;
     }
@@ -380,5 +359,10 @@ footer {
     .abc{
         min-width: 400px;
         width: 40px;
+    }
+}
+@media (max-width: 654px) {
+    .logo{
+        font-size: 3vw;
     }
 }

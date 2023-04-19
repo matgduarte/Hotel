@@ -245,7 +245,9 @@ footer {
     }
 }
 
-@media (max-width: 999px) {
+/*Media*/
+
+@media (max-width: 1019px) {
     body {
         overflow-x: hidden;
     }
@@ -271,5 +273,10 @@ footer {
 
     .mobile-menu {
         display: block;
+    }
+}
+@media (max-width: 654px) {
+    .logo{
+        font-size: 3vw;
     }
 }
