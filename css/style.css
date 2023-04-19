@@ -292,25 +292,53 @@ main {}
 .h1-quartos {
     margin-bottom: 10px;
 }
-
-.slider-item{
+.slider{
+    overflow: hidden;
+    width: 30%;
+    height: 600px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
-    text-shadow: 5px 4px #527e7963;
-    background: #20504a0c;
+    transition: all 500ms ease;
+    margin-top: 5%;
 }
 
-
-.slider-item img{
-    height: 100vh;
-    width: 100%;    
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+    
 }
 
-.slider-item h1{
-    font-size: 3vh;
-    color: #FFF;
-    position: absolute;
-    top: 40px;
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
+.slider-item
+{
     width: 100%;
+    height: 600px;
+}
+.promo1
+{
+    margin-top: 25px;
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*Footer*/
