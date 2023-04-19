@@ -155,19 +155,57 @@ main {
     text-align: left;
 }
 .li-vert{
-    height: 200vh;
+    height: 250vh;
     border-left: 1px solid black;
 
     margin-left:  70%;
-    margin-top: -100%;
+    margin-top: -125%;
 }
+/** lado da linha - fotos - colaboradores/programadores **/
+#div-img {
+    width: 25%;
+
+    margin-left: 72.5%;
+    margin-top: 5%;
+}
+#div-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+#h2-sobre-colab {
+    background-color: #20504a;
+    border-radius: 10px;
+    color: white;
+    
+    width: 12%;
+    margin-left: 78.5%;
+    margin-top: -120%;
+    padding: 1%;
+}
+#h2-sobre-colab h2 {
+    text-align: center;
+}
+#h2-sobre-colab-info {
+    background-color: #20504a;
+    border-radius: 10px;
+    color: white;
+    
+    width: 20%;
+    margin-left: 72.5%;
+    margin-top: 5%;
+    padding: 1%;
+}
+#h2-sobre-colab-info h2 {
+    text-align: center;
+}
+
 
 footer {
     position: absolute;
     background: #20504a;
     width: 100%;
     padding-top: 2.5%;
-    margin-top: 10%;
+    margin-top: 70%;
 }
 
 #infor div{
@@ -273,3 +311,4 @@ footer {
         display: block;
     }
 }
+
