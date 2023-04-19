@@ -112,6 +112,9 @@ nav {
     height: 100px;
 }
 main {
+    width: auto;
+}
+.conta{
     width: 100%;
 }
 #title {
@@ -160,7 +163,7 @@ h2{
     text-align: left;
 }
 .li-vert{
-    height: 250vh;
+    height: 200vh;
     border-left: 1px solid black;
     float: left;
     
@@ -217,12 +220,12 @@ h2{
 }
 
 
+/*Footer*/
 footer {
     position: absolute;
     background: #20504a;
     width: 100%;
     padding-top: 2.5%;
-    margin-top: 50%;
 }
 
 #infor div{
