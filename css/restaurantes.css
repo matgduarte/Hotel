@@ -387,9 +387,71 @@ footer {
     .mobile-menu {
         display: block;
     }
+
+    .bv-div h1{
+        font-size:5vh;
+        text-align: right;
+        color: #fff;
+    }
+
+    h1{
+    font-size: 15px;
+    }
+
+    p {
+    font-size: 10px;
+    }
+    .h1M{
+        font-size: 20px;
+    }
+
 }
-@media (max-width: 654px) {
+@media (max-width: 700px) {
     .logo{
         font-size: 3vw;
+    }
+    .bv-div h1{
+        font-size:5vh;
+        text-align: right;
+        color: #fff;
+    }
+
+    h1{
+    font-size: 12px;
+    }
+
+    p {
+    font-size: 10px;
+    }
+    .h1M{
+        font-size: 20px;
+    }
+    .abc1 h1{
+        font-size: 25%;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo{
+        font-size: 3vw;
+    }
+    .bv-div h1{
+        font-size:5vh;
+        text-align: right;
+        color: #fff;
+    }
+
+    h1{
+    font-size: 8px;
+    }
+
+    p {
+    font-size: 10px;
+    }
+    .h1M{
+        font-size: 20px;
+    }
+    .abc1 h1{
+        font-size: 25%;
     }
 }
