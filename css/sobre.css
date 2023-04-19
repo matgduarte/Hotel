@@ -162,30 +162,41 @@ h2{
 .li-vert{
     height: 250vh;
     border-left: 1px solid black;
+    float: left;
+    
+}
 
-    margin-left:  70%;
-    margin-top: -125%;
+.boxs{
+    width: 70%;
+    float: left;
+}
+.imgs{
+    width: 29.7%;
+    float: right;
+}
+.cola{
+    width: 100%;
 }
 /** lado da linha - fotos - colaboradores/programadores **/
 #div-img {
-    width: 25%;
-
-    margin-left: 72.5%;
+    width: 90%;
     margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 #div-img img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 #h2-sobre-colab {
     background-color: #20504a;
     border-radius: 10px;
     color: white;
-    
-    width: 12%;
-    margin-left: 78.5%;
-    margin-top: -120%;
-    padding: 1%;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 #h2-sobre-colab h2 {
     text-align: center;
@@ -195,10 +206,11 @@ h2{
     border-radius: 10px;
     color: white;
     
-    width: 20%;
-    margin-left: 72.5%;
+    width: 90%;
     margin-top: 5%;
-    padding: 1%;
+    margin-left: 4%;
+    margin-right: 5%;
+
 }
 #h2-sobre-colab-info h2 {
     text-align: center;
