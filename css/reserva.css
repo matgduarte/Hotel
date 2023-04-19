@@ -139,7 +139,6 @@ hr{
 }
 
 /*Header*/
-
 header {
     position: fixed;
     width: 100%;
@@ -219,6 +218,7 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
 
 /*Footer*/
 footer {
@@ -303,7 +303,7 @@ footer {
     }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1019px) {
     body {
         overflow-x: hidden;
     }
@@ -515,5 +515,10 @@ footer {
         display: inline-block;
         margin-top: 2%;
         width: 10%;
+    }
+}
+@media (max-width: 654px) {
+    .logo{
+        font-size: 3vw;
     }
 }
